@@ -17,13 +17,17 @@ export default function TaskField({ setTasksList, setTaskId, id }) {
   return (
     <>
       <input
+        className="w-full border-2 p-[0.5rem] rounded-xl"
         ref={inputRef}
         id="task-field"
         name="task-field"
         type="text"
         placeholder="Start writing and press enter to create task"
       />
-      <button type="submit" onClick={handleClick}>
+      <button
+        className="flex justify-center items-center absolute bottom-2 right-2 bg-black w-[30px] h-[30px] rounded-md cursor-pointer"
+        type="submit"
+        onClick={handleClick}>
         <EnterIcon />
       </button>
     </>

@@ -17,7 +17,7 @@ export default function TaskTracker() {
           id={taskId}
         />
       </header>
-      <main>
+      <main className="w-full flex flex-col">
         {tasksList
           .map((elem) => (
             <TaskPrinter

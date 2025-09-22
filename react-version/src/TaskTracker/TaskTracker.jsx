@@ -8,9 +8,9 @@ export default function TaskTracker() {
   const [, setIsChanged] = useState(false);
 
   return (
-    <article>
-      <header>
-        <h1>Task Tracker</h1>
+    <article className="w-[600px] mx-auto mt-[100px] border-2 p-[2.5rem] rounded-2xl flex flex-col justify-center items-center">
+      <header className="w-full flex flex-wrap">
+        <h1 className="w-full text-2xl mb-[0.5rem]">Task Tracker</h1>
         <TaskField
           setTasksList={setTasksList}
           setTaskId={setTaskId}

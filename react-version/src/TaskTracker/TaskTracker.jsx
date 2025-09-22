@@ -10,6 +10,7 @@ export default function TaskTracker() {
   return (
     <article>
       <header>
+        <h1>Task Tracker</h1>
         <TaskField
           setTasksList={setTasksList}
           setTaskId={setTaskId}

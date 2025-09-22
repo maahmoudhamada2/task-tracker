@@ -1,3 +1,5 @@
+import TaskTracker from "./TaskTracker/TaskTracker";
+
 export default function App() {
-  return <h1>Task Tracker</h1>;
+  return <TaskTracker />;
 }
